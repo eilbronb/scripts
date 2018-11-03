@@ -13,3 +13,5 @@ device.open()
 
 device.load_merge_candidate(filename='r2-running-config')
 print(device.compare_config())
+
+device.close()
