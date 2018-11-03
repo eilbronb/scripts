@@ -1,6 +1,6 @@
 import napalm
 
-device_ip = '10.10.10.26'
+device_ip = '10.10.10.21'
 username = 'admin'
 password = 'password123'
 
