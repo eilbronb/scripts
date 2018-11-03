@@ -11,4 +11,4 @@ device = napalm_driver(hostname=device_ip,
 
 device.open()
 
-device.load_merge_candidate(filename='../my_network-as_code_Beta/base_config/iou-l3-startup-config')
+device.load_merge_candidate(filename='iou-l3-startup-config')
