@@ -1,6 +1,6 @@
 import napalm
 
-device_ip = '10.10.10.21'
+device_ip = '10.10.10.26'
 username = 'admin'
 password = 'password123'
 
@@ -11,4 +11,4 @@ device = napalm_driver(hostname=device_ip,
 
 device.open()
 
-device.load_merge_candidate(filename='iou-l3-startup-config')
+device.load_merge_candidate(filename='iou-r1-startup-config')
